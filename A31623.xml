@@ -1,0 +1,563 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Manuale medicum, or, A small treatise of the art of physick in general, and of vomits and the Jesuits powder in particular by Hugh Chamberlain ...</title>
+            <author>Chamberlen, Hugh.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1685</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 71 KB of XML-encoded text transcribed from 28 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A31623</idno>
+            <idno type="STC">Wing C1876</idno>
+            <idno type="STC">ESTC R41490</idno>
+            <idno type="EEBO-CITATION">31355440</idno>
+            <idno type="OCLC">ocm 31355440</idno>
+            <idno type="VID">110467</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A31623)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 110467)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1736:12)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Manuale medicum, or, A small treatise of the art of physick in general, and of vomits and the Jesuits powder in particular by Hugh Chamberlain ...</title>
+                  <author>Chamberlen, Hugh.</author>
+               </titleStmt>
+               <extent>[8], 47 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by J. Gain, for the Author,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1685.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Errata: p. 47, and on slip pasted on p. [8].</note>
+                  <note>Imperfect: stained, and with print show-through.</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Medicine --  Early works to 1800.</term>
+               <term>Medicine --  Formulae, receipts, prescriptions.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-08</date>
+            <label>Monica Tsuneishi</label>Sampled and proofread</change>
+         <change>
+            <date>2013-08</date>
+            <label>Monica Tsuneishi</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:110467:1"/>
+            <pb facs="tcp:110467:1" rendition="simple:additions"/>
+            <p>
+               <hi>Manuale Medicum.</hi>
+            </p>
+            <p>OR A Small Treatiſe of the <hi>Art</hi> of <hi>PHYSICK</hi> in General.</p>
+            <p>AND OF VOMITS AND THE <hi>JES<g ref="char:V">Ʋ</g>ITS POWDER</hi> in Particular.</p>
+            <p>By <hi>Hugh Chamberlain.</hi>
+            </p>
+            <p>
+               <hi>Phyſitian</hi> in Ordinary to his late Majeſty, and Fellow of the <hi>Royal Society.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>J. Gain,</hi> for the Author, 1685.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:110467:2"/>
+            <pb facs="tcp:110467:2"/>
+            <head>PREFACE.</head>
+            <p>
+               <hi>IT</hi> being my Misfortune to dif<g ref="char:EOLhyphen"/>fer in Opinion from Eminent and Famous <hi>Phyſitians</hi> in two things of great moment to the Preſervation of LIFE and HEALTH <hi>Viz.</hi> The great Contempt or Neglect of <hi>Vomits,</hi> which in the following Tract is pre<g ref="char:EOLhyphen"/>ſumed to conduce more to the Reſto<g ref="char:EOLhyphen"/>ring of Health and Saving of Life than any other Remedy yet publick<g ref="char:EOLhyphen"/>ly diſcovered; and the Common <g ref="char:V">Ʋ</g>ſe of the <hi>Jeſuits Powder,</hi> which plainly appears as Deſtructive. I have been often urged for the Rea<g ref="char:EOLhyphen"/>ſons that prevail with me to be ſin<g ref="char:EOLhyphen"/>gular, and wanting leiſure to ſa<g ref="char:EOLhyphen"/>tisfie by Diſcourſe ſuch of thoſe En<g ref="char:EOLhyphen"/>quirers
+<pb facs="tcp:110467:3"/> to whom I owed that re<g ref="char:EOLhyphen"/>ſpect I found my ſelf under a ne<g ref="char:EOLhyphen"/>ceſſity to <hi>Print</hi> a few of thoſe Ar<g ref="char:EOLhyphen"/>guments which ſupport my ſaid Opi<g ref="char:EOLhyphen"/>nions, and which I had, <hi>Curren<g ref="char:EOLhyphen"/>te Calamo,</hi> written for the <g ref="char:V">Ʋ</g>ſe of a <hi>Son</hi> I ſent to the <hi>Eaſt-In<g ref="char:EOLhyphen"/>dies,</hi> where better Help may be wanting. I purpoſely avoid Te<g ref="char:EOLhyphen"/>diouſneſs, and pretend to no Florid Stile, nor Elaborate Treatiſe, clog'd with many Niceties not eaſi<g ref="char:EOLhyphen"/>ly to be conceived; but waving thoſe <hi>difficiles nugae,</hi> I hope I have ſtumbled upon certain plain and uſeful Truths, which my Rea<g ref="char:EOLhyphen"/>der may rely upon in time of Need, and with a ſmall <g ref="char:V">Ʋ</g>nderſtanding comprehend, if he will give him<g ref="char:EOLhyphen"/>ſelf a little thinking time.</p>
+            <pb facs="tcp:110467:3"/>
+            <p>I know Men are under ſuch in<g ref="char:EOLhyphen"/>vincible Prejudices by Education, Cuſtome, and Intereſt, that whoſo<g ref="char:EOLhyphen"/>ever hath the Confidence to oppoſe common received Opinions by broach<g ref="char:EOLhyphen"/>ing New, or reviving Old, runs a mighty hazard of his Repu<g ref="char:EOLhyphen"/>tation: Notwithſtanding, I have adventured to caſt in my Mite, and if either it proves ſerviceable for the Preſervation or Recovery of Life or Health, or provokes ſome more Able, to perfect or diſprove my Notions in this <hi>Eſſay,</hi> (the De<g ref="char:EOLhyphen"/>fects whereof I am not ignorant of, but want both Time and Ability poſſibly to Correct) I have my Sa<g ref="char:EOLhyphen"/>tisfaction. I do not here pretend to write any thing of which our <hi>Phyſitians</hi> are Ignorant, but
+<pb facs="tcp:110467:4"/> what, for Reaſons beſt known to themſelves, they rarely put in practice: And therefore hope it may be no Crime unpardonable to refreſh their Memories, as well as guide the Patient in ſome meaſure, to judge whether he is Skilfully and Candidly dealt with by his Phyſitian: Which <g ref="char:V">Ʋ</g>ſe alone may be a ſmall <hi>Recommendation</hi> of this <hi>Manual,</hi> for both <hi>Phyſitian's</hi> and <hi>Patient's</hi> Sake.</p>
+            <p>It may upon due obſervation be ſtrongly preſumed, that near half that dye yearly in <hi>London,</hi> and the <hi>Countrey,</hi> come within the Power of <hi>Nature</hi> and <hi>Art</hi> to be kept alive much longer, were but the Practice Reformed, and <hi>Patients</hi> taught to be more
+<pb facs="tcp:110467:4"/> prudent in making timely Ap<g ref="char:EOLhyphen"/>plication for H<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lp, and being contented to be Governed until Health be perfectly Reſtored.</p>
+            <p>The ſeveral particular Points herein aſſerted, may ſeem new Notions, yet are they all Founded upon Old Truths; which unleſs the <hi>Philoſopher's Elixir</hi> comes to be diſcovered, and brought into Common <g ref="char:V">Ʋ</g>ſe, as ſome have vainly hoped, will never juſtly grow out of Date.</p>
+            <p>This <hi>Short Account</hi> to my <hi>Reader</hi> may not be impertinent, ſince I ſeem Obliged to ex<g ref="char:EOLhyphen"/>cuſe my Appearing in Print: To which I was compelled
+<pb facs="tcp:110467:5"/> having no other Means to Secure my ſelf and others from the Abuſe of a Falſe Impreſſion, which might Surreptitiouſly creep forth by Imperfect Copies, already given to ſome few Friends.</p>
+         </div>
+         <div type="errata">
+            <p>PAge 1. line 3. r. <hi>Phyſical.</hi> p. 7. l. 6. r. <hi>critical.</hi> p. 8. l. 18. r. <hi>the Roots or Fountains of all Diſeaſes.</hi> p. 13. l. 10. after <hi>or</hi> r. <hi>ſome.</hi> p. 14. l. 12. r. <hi>tranſmuted.</hi> p. 15. l. 1. r. <hi>Vomiting.</hi> and l. 13. r. <hi>as is confeſt.</hi> p. 16. l. 10. r. <hi>Cau<g ref="char:EOLhyphen"/>tion.</hi> l. 11. place a <hi>comma</hi> after <hi>Diſtempers.</hi> p. 17. l. 2. after <hi>and</hi> r. <hi>for.</hi> l. 10. dele <hi>moſt.</hi> p. 18. l. 26. r. <hi>who</hi> for <hi>he.</hi> p. 19. l. 22. r. <hi>Böetius</hi> with two tittles. l. 23. dele <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> in <hi>faſting.</hi> p. 21. l. 9. r. <hi>deep rooted</hi> l. 11. r. <hi>Nerves.</hi> l. laſt add to the bot<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>om of <hi>Berrnier's</hi> Relation this Obſerva<g ref="char:EOLhyphen"/>tion of the late <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uke of <hi>Albemarl's</hi> 
+               <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n the laſt great <hi>Plague,</hi> Anno 1665, <hi>Viz.</hi>
+            </p>
+            <p>
+               <hi>That all the Souldiers that took</hi> Vomits <hi>in the beginning of their being Infected, Recovered.</hi> Which by the way, <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s more than can be <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aid of any one <hi>Medicine</hi> beſides.</p>
+            <p>P. 33. l. 3. r. <hi>Laurinum.</hi> p. 36. l. 20. r. <hi>though many.</hi> l. 24. dele <hi>by.</hi> p. 41. <hi>beginning of the laſt lines.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="essay">
+            <pb n="1" facs="tcp:110467:5" rendition="simple:additions"/>
+            <head>
+               <hi>Manuale Medicum,</hi> OR, A ſhort <hi>Phyſick-Eſſay,</hi> &amp;c.</head>
+            <p>THE Art of Healing can never be Succesful, when neither the <hi>Theory</hi> is ſufficiently underſtood, nor the <hi>Practice</hi> well managed, though for the Inſtructing there<g ref="char:EOLhyphen"/>in multitudes of Books are extant, and dayly new <hi>Hypotheſes</hi> ſtarted; but as the former cauſe Confuſion, ſo moſt of the lat<g ref="char:EOLhyphen"/>ter have little beſides their Novelty to re<g ref="char:EOLhyphen"/>commend them.</p>
+            <p>This Art is of abſolute neceſſity, and great uſe to the well-being of Mankind; and yet it wants, as moſt other things, not only the Improvements might reaſonably have been made, but even the benefit of many formerly in uſe, and ſtill fit to be conti<g ref="char:EOLhyphen"/>nued.</p>
+            <p>Divers things have contributed to this
+<pb n="2" facs="tcp:110467:6"/> Misfortune; amongſt others, the cauſeleſs Fears and raſh Cenſures of <hi>Patients;</hi> which have incouraged ſome diſ-ingenuous <hi>Phyſi<g ref="char:EOLhyphen"/>tians</hi> to take advantage of their Ignorance; moſt of them chooſing rather to be decoy<g ref="char:EOLhyphen"/>ed into their Graves, than forced into their Health. Something not much unlike this humour was in <hi>Jeremiah</hi>'s Time; <hi>Jer.</hi> 5.31. <hi>The Prophets propheſie falſely, and the Prieſts bear Rule by their Means, <hi>And my People love to have it ſo;</hi> and what will ye do in the end thereof?</hi> And <hi>Amelot de la Houſſaie,</hi> in his Hiſtory of <hi>Venice,</hi> pag. 260, 261, and 262, obſerves, <hi>That ill Counſels (provided they are covered with plauſible Appearances) are oftner followed than good.</hi> Which moſt com<g ref="char:EOLhyphen"/>monly diſpleaſe, either from the difficulty of the Execution; or, becauſe the good or ill Conſequences are not generally foreſeen; for men do not diſcern what is true from what is falſe, nor what is convenient from what is deſtructive.</p>
+            <p>But if Diſeaſed <hi>Patients</hi> could be healed naturally, as once miraculouſly, by a Com<g ref="char:EOLhyphen"/>mand <hi>to take up their Beds and walk,</hi> without a neceſſity of ſwallowing many loathſome <hi>Potions,</hi> and ſeemingly churliſh <hi>Medicines,</hi> and always as well <hi>jucundè,</hi> as ſometimes <hi>citò &amp; <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>u<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ò</hi> be freed from their <hi>Diſeaſes,</hi> then might <hi>Phyſitians</hi> boaſt of a <hi>Purge,</hi> or
+<pb n="3" facs="tcp:110467:6"/> 
+               <hi>Vomit</hi> which ſhould neither make ſick, nor gripe; and of <hi>Specificks</hi> without any ſenſible <hi>Evacuation,</hi> wherewith to vanquiſh all Diſ<g ref="char:EOLhyphen"/>eaſes: but theſe are <hi>Deſiderata:</hi> for though a Diſeaſe be received with never ſo much delight into the Body, it ſhall coſt ſome pain and trouble before it can be parted with: 'tis true, that pain and trouble, where Strength gives liberty and time, may be divided into ſmaller Portions, by protract<g ref="char:EOLhyphen"/>ing the Cure; and a <hi>Patient,</hi> who cannot ſuf<g ref="char:EOLhyphen"/>fer a removal of his Diſeaſe at once, may be healed by degrees, there being (beſides the true and ſafe Method of helping with pow<g ref="char:EOLhyphen"/>erful Remedies) a ſlower and more uncer<g ref="char:EOLhyphen"/>tain, yet ſeemingly milder, for ſuch as have patience, and will run the hazard.</p>
+            <p>
+               <hi>Diſeaſes</hi> may of themſelves for a time be quieted, and their Fermentation interrupted, and ſometimes alſo by Art to good purpoſe; but never was any Cured without <hi>Evacuati<g ref="char:EOLhyphen"/>on,</hi> general or particular, natural or artifici<g ref="char:EOLhyphen"/>al, as by <hi>Vomiting, Seige, <g ref="char:V">Ʋ</g>rine, Sweat, Sneez<g ref="char:EOLhyphen"/>ing, Impoſthumations,</hi> or other Eruptions, <hi>B<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>oding, Fluxing, Blistering,</hi> or <hi>Cupping,</hi> with, or without <hi>Scarifications,</hi> according to the ſound Judgment of a well experienced and honeſt <hi>Phyſitian.</hi> And of this his late Majeſty hath been a late famous Example, when attacqued with that dreadful Fit, to
+<pb n="4" facs="tcp:110467:7"/> the terrour of the whole Nation, who was only relieved by ſpeedy <hi>Evacuation</hi> of all ſorts. Which fair way of <hi>Practice</hi> would not ſcare <hi>Patients</hi> with an <hi>Apothecary</hi>'s Bill, amounting to 15 <hi>l.</hi> or 20 <hi>l.</hi> in an ordinary Caſe.</p>
+            <p>It may boldly be affirmed, that <hi>Cordials</hi> com<g ref="char:EOLhyphen"/>monly in Uſe, never Cured any Diſtemper which would not as certainly have been Cu<g ref="char:EOLhyphen"/>red without them. 'Tis confeſt many <hi>Cordials,</hi> ſo called, tend towards <hi>Evacuation</hi> by <hi>
+                  <g ref="char:V">Ʋ</g>rine</hi> or <hi>Sweat,</hi> and ſome to <hi>Sweetning</hi> and <hi>Quiet<g ref="char:EOLhyphen"/>ing;</hi> the former do very little, or nothing aſſiſt <hi>Nature,</hi> in compariſon to larger <hi>Eva<g ref="char:EOLhyphen"/>cuation;</hi> and the latter only <hi>Palliate</hi> or <hi>Quiet</hi> for the preſent; and ſoon after, the <hi>Torrent,</hi> if not prevented by <hi>Evacuations,</hi> breaks forth again with greater Violence: the proper uſe of <hi>Cordials</hi> being with more ſpeed to reſtore <hi>Spirits</hi> exhauſted by <hi>Labour, violent Workings</hi> of <hi>Phyſick,</hi> or <hi>Diſeaſes</hi> already in a great meaſure overcome; becauſe, <hi>Potu citius quam Cibo refici<g ref="char:EOLhyphen"/>mur:</hi> For otherwiſe, <hi>Impura Corpora, quo magis nutrieris, èo magis laeſeris.</hi> And conſequently, <hi>Cordials</hi> then hurt more than help. As for <hi>Example:</hi> Compare a <hi>Diſ<g ref="char:EOLhyphen"/>eaſe</hi> in the Body to a Parcel of <hi>Wood</hi> in a Chamber, which always incumbers, though ſometimes without danger; and admit an
+<pb n="5" facs="tcp:110467:7"/> unexpected Fire kindles that <hi>Wood;</hi> as an accident may rouſe a <hi>latent Ferment</hi> in the Body; then the Room becomes in danger of burning, and the <hi>Patient</hi> of being deſtroyed by a <hi>Feaver,</hi> or the like.</p>
+            <p>The <hi>Queſtion</hi> will be, What may beſt ſe<g ref="char:EOLhyphen"/>cure this <hi>Chamber</hi> and <hi>Patient?</hi> Whether with <hi>Water,</hi> to extinguiſh the <hi>Fire,</hi> and leave it ſmothering, and more apt to receive a new <hi>Inflamation?</hi> Or, ſuffer it to burn out, whereby the Chamber is alſo indangered? Or, cauſe it to be carried away by a brisk ſtout Fellow? So, whether to <hi>palliate</hi> the <hi>Patient</hi>'s Diſeaſe with a quieting <hi>Medicine,</hi> to bridle the preſent <hi>Ferment,</hi> leaving ſtill behind ſome uneaſie Symptomes, the <hi>Re<g ref="char:EOLhyphen"/>liques</hi> of an <hi>Imperfect Cure,</hi> or <hi>Chronical Di<g ref="char:EOLhyphen"/>ſtemper</hi> inſtead of the <hi>Feaver?</hi> Or, ſuffer the <hi>Feaver</hi> to make its own way, and <hi>Nature</hi> to ſtruggle for the Maſtery, to the hazard of the <hi>Patients</hi> Life? Or, by proper and powerful <hi>Catharticks,</hi> or other <hi>Evacuants,</hi> carry off this <hi>Morbifick Matter;</hi> this <hi>Fomes,</hi> and cauſe of thoſe Appearances, which by miſtake, are called <hi>Diſeaſes?</hi> For Inſtance; A <hi>Fea<g ref="char:EOLhyphen"/>ver</hi> continual or intermitting, a <hi>Vomiting,</hi> or <hi>Looſeneſs,</hi> a <hi>Cholick</hi> or <hi>Convulſion, Jaundice</hi> or <hi>Dropſies,</hi> &amp;c. are no more the <hi>Diſeaſe</hi> than a <hi>Cholera Morbus, Feaver</hi> and <hi>Convulſi<g ref="char:EOLhyphen"/>on</hi>
+               <pb n="6" facs="tcp:110467:8"/> cauſed by the taking <hi>Poyſon,</hi> is then the <hi>Diſeaſe:</hi> Whether therefore at ſuch a time a quieting aſtringent <hi>Opiate</hi> may more pro<g ref="char:EOLhyphen"/>perly be adminiſtred for the <hi>Patient's</hi> Reco<g ref="char:EOLhyphen"/>very, than a Cup of <hi>Sack</hi> for the Relief of a wearied <hi>Porter</hi> would be more acceptable than the taking the Burden off his Back.</p>
+            <p>
+               <hi>Sickneſs</hi> may be ſaid to be the various Paſſi<g ref="char:EOLhyphen"/>ons of the Body, which happen when <hi>Nature</hi> is attempting to free it ſelf from whatever is troubleſome or uſeleſs; or thus, every <hi>Hu<g ref="char:EOLhyphen"/>mour</hi> received, bred, or ſo altered within the Body, as by reaſon of its quantity or quality, is unapt to be converted into the Uſe or Nouriſhment of the ſame; but, <hi>è contra,</hi> irritates, interrupts, or burthens either the <hi>Natural, Vital,</hi> or <hi>Animal Functions. Na<g ref="char:EOLhyphen"/>ture</hi> therefore for the moſt part, attempts to expel as a <hi>Diſeaſe</hi> whatever it cannot digeſt into Uſe by <hi>Fermentation,</hi> ariſing from a Confuſion of the <hi>Homogeneous</hi> and <hi>Heteroge<g ref="char:EOLhyphen"/>neous Matter</hi> or <hi>Humour,</hi> retaining the firſt for the Service of the Body, and expelling the laſt as <hi>Excrementitious:</hi> and poſſibly, moſt purging <hi>Medicines</hi> work no other way but as a <hi>Ferment</hi> caſt in, to awaken <hi>Nature;</hi> by the help of which <hi>Fermentation,</hi> Diſeaſes are often purged away by the ſtrength of <hi>Nature</hi> through the common <hi>Vents</hi> or <hi>Emun<g ref="char:EOLhyphen"/>ctories,</hi> as by <hi>Siege, <g ref="char:V">Ʋ</g>rine, Sweat, Haemorr<g ref="char:EOLhyphen"/>hages;</hi>
+               <pb n="7" facs="tcp:110467:8" rendition="simple:additions"/> or <hi>Nature</hi> otherwiſe throws off ſome, or all of the <hi>Morbifick Matter</hi> upon the habit of the Body, or remote Parts, where it after becomes a <hi>Chronicle Diſeaſe</hi> or <hi>Tumour,</hi> as <hi>Gout, Scurvey, Bubo,</hi> &amp;c. Theſe Expulſions are either <hi>Critick</hi> or <hi>Symptomatical; Critical,</hi> when <hi>Nature</hi> diſchargeth the Whole, or greater Part; and <hi>Symptomatical,</hi> when the Peccant Matter ſo abounds, as to deſtroy, or at leaſt endanger or incommode the <hi>Patient,</hi> by attacquing him in ſeveral Parts and dif<g ref="char:EOLhyphen"/>ferent Manners, notwithſtanding the Parti<g ref="char:EOLhyphen"/>cular Evacuations.</p>
+            <p>The true and only Cauſes of all <hi>Obſtructi<g ref="char:EOLhyphen"/>ons</hi> and <hi>Diſeaſes</hi> are the Abuſe of, or Er<g ref="char:EOLhyphen"/>rours in the ſix <hi>Non-naturals: Solutio conti<g ref="char:EOLhyphen"/>nui, Contuſions, venemous Stingings,</hi> and <hi>Contagion,</hi> may alſo be reduced under the ſame Heads; which Errours alter and viti<g ref="char:EOLhyphen"/>ate the Humours, and they the Solid Parts. Obſerve therefore, That</p>
+            <p>
+               <hi>Health is preſerv'd by</hi>
+               <list>
+                  <item>
+                     <hi>Good Ayre.</hi>
+                  </item>
+                  <item>
+                     <hi>Wholſome Meat and Drink.</hi>
+                  </item>
+                  <item>
+                     <hi>Moderate Excretion &amp; Retention</hi>
+                  </item>
+                  <item>
+                     <hi>Regular Exerciſe and Reſt.</hi>
+                  </item>
+                  <item>
+                     <hi>Fitting Sleep and Watching.</hi>
+                  </item>
+                  <item>
+                     <hi>Orderly Paſſions of the Mind.</hi>
+                  </item>
+               </list> 
+               <hi>and loſt by</hi>
+               <list>
+                  <item>
+                     <hi>Bad, Ayre.</hi>
+                  </item>
+                  <item>
+                     <hi>
+                        <g ref="char:V">Ʋ</g>nwholſome Meat and Drink.</hi>
+                  </item>
+                  <item>
+                     <hi>Immoderate, Excretion &amp; Retention</hi>
+                  </item>
+                  <item>
+                     <hi>Irregular, Exerciſe and Reſt.</hi>
+                  </item>
+                  <item>
+                     <hi>Unfitting, Sleep and Watching.</hi>
+                  </item>
+                  <item>
+                     <hi>Diſorderly, Paſſions of the Mind.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>Which ſix Particulars are both the Cauſe and Cure of Sickneſs and Health; <hi>Tempe<g ref="char:EOLhyphen"/>rance</hi>
+               <pb n="8" facs="tcp:110467:9" rendition="simple:additions"/> therefore and <hi>Content</hi> goes a great way in its Preſervation.</p>
+            <p>In ſhort, <hi>Repletion</hi> and <hi>Inanition,</hi> or if you pleaſe, <hi>Addition</hi> and <hi>Subſtraction,</hi> with the <hi>Paſſions,</hi> cauſe all <hi>Diſeaſes;</hi> the firſt, by re<g ref="char:EOLhyphen"/>ceiving what is unfit in Quantity or Quality for the Support of the Body, or retaining what ought to be diſcharged as Uſeleſs: the laſt, by not ſupplying what is neceſſary for the Support of the Body, or expelling too ſoon by <hi>Wound, Purge,</hi> or otherways, what is ſo ſupplied, and ought longer to have been retained.</p>
+            <p>By theſe means the Blood is either coagu<g ref="char:EOLhyphen"/>lated, whence <hi>Stagnation</hi> and <hi>Suffocation;</hi> or rarified, ſo as the Spirits get looſe and va<g ref="char:EOLhyphen"/>niſh, by both which Death only enters.</p>
+            <p>Diſeaſes produced by the forementioned ſix <hi>Non-naturals</hi> are to be diſtinguiſhed by their taſte, colour, and conſiſtence, as,
+<list>
+                  <item>
+                     <hi>Bitter</hi> and <hi>Yellow,</hi>
+                  </item>
+                  <item>
+                     <hi>Sower</hi> and <hi>Greeniſh.</hi>
+                  </item>
+                  <item>
+                     <hi>Salt</hi> and <hi>Glaſſy.</hi>
+                  </item>
+                  <item>
+                     <hi>Inſipid</hi> and <hi>Viſcous.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>And were antiently the four <hi>Simple Humors,</hi> called <hi>Excrementitious Choler</hi> and <hi>Phlegme, Whey</hi> and <hi>Melancholly</hi> (of which, only the two former are allowed by the Learned <hi>Liſter</hi>) together with the various Com<g ref="char:EOLhyphen"/>pounds and Mixtures of theſe, which when
+<pb n="9" facs="tcp:110467:9"/> they exceed their Limits, and predominate, bring forth divers Symptomes, or, as they are often called, <hi>Complicated Diſtempers,</hi> ac<g ref="char:EOLhyphen"/>cording to the ſeveral parts they poſſeſs, ſprouting up like many Branches from one and the ſame Trunk.</p>
+            <p>Thus <hi>Medicine</hi> over-doſed, and <hi>Food</hi> in an undue quantity, create dangerous <hi>Humours</hi> or <hi>Diſeaſes;</hi> for a Scruple of <hi>Mercury preci<g ref="char:EOLhyphen"/>pitate,</hi> a Dram of <hi>Opium</hi> or <hi>Spirit</hi> of <hi>Vitriol,</hi> or a Quart of <hi>Brandy,</hi> will, by altering and mov<g ref="char:EOLhyphen"/>ing the <hi>Humours</hi> irregularly, poyſon ſuch as are not uſed to them; and yet in ſmall quan<g ref="char:EOLhyphen"/>tities are both <hi>Food</hi> and <hi>Phyſick:</hi> for 1/1000 part of a Grain of the ſame <hi>Mercury,</hi> a Grain of <hi>Opium,</hi> ten Drops of <hi>Spirit</hi> of <hi>Vitriol,</hi> or one Ounce of <hi>Brandy,</hi> are both <hi>Food</hi> and <hi>Phy<g ref="char:EOLhyphen"/>ſick,</hi> and hurt not, according to the Proverb, <hi>Parum Veneni non nocet:</hi> For <hi>Poyſon</hi> in ſo ſmall a Doſe as <hi>Nature</hi> can overcome, may be <hi>Food</hi> or <hi>Phyſick;</hi> and <hi>Food</hi> and <hi>Phyſick</hi> in a larger quantity than can be ſubdued by <hi>Nature,</hi> is <hi>Poyſon;</hi> only thoſe things have obtained the Name of <hi>Poyſon</hi> which are pow<g ref="char:EOLhyphen"/>erful in ſmall Quantities, and without great exactneſs cannot ſafely be applied to the be<g ref="char:EOLhyphen"/>nefit of Mankind.</p>
+            <p>Note, That the <hi>Humours</hi> may be ſaid to offend in quantity, when any one part is
+<pb n="10" facs="tcp:110467:10"/> overcharged with them, though there remain leſs than neceſſary in the reſt.</p>
+            <p>For the Signs of <hi>Diſeaſes,</hi> ſee <hi>Riverius's Inſtitutions,</hi> the 1ſt. Chap. of the 2d. Sect. of his <hi>Semeioticks,</hi> and ſo to the 5th. Chap. where he gives a large Account.</p>
+            <p>But the moſt neceſſary and material Signs I have thence extracted and ſubjoyned.</p>
+            <p>And firſt, the Signs when <hi>Choler</hi> predomi<g ref="char:EOLhyphen"/>nates, are</p>
+            <p>A full, frequent, and hard <hi>Pulſe.</hi>
+            </p>
+            <p>Want of <hi>Appetite,</hi> and loathing of Meat, great <hi>Thirſt,</hi> a <hi>Burning Fever,</hi> a <hi>Tertian, Phrenſy, Pleuriſy, Vomiting of Choler, Looſe<g ref="char:EOLhyphen"/>neſs, Eriſipilas, Tetter,</hi> &amp;c.</p>
+            <p>
+               <hi>Pimples</hi> in the Face, <hi>bitterneſs</hi> in the Mouth, <hi>Stooles</hi> very yellow, and ſometimes white, when the Skin is yellow, <hi>Urine</hi> thin and high coloured, and ſometimes thick and yellow<g ref="char:EOLhyphen"/>iſh, red and intenſe, a dry burning of the Hands and Feet, a yellowiſh colour of the Face and Eyes, and ſometimes of the whole Body, falling off the Hair, <hi>&amp;c.</hi>
+            </p>
+            <p>
+               <hi>Secondly,</hi> When <hi>Phlegme,</hi> expect,</p>
+            <p>A ſmall, ſlow, and ſoft <hi>Pulſe.</hi>
+            </p>
+            <p>A bad <hi>Appetite,</hi> little or no <hi>Thirſt, Ca<g ref="char:EOLhyphen"/>tarrhs,
+<pb n="11" facs="tcp:110467:10"/> Dropſies, Obſtructions, Lethargies, Pal<g ref="char:EOLhyphen"/>ſies,</hi> &amp;c. a white, thick, inſipid <hi>Humour</hi> from the Noſe and Mouth, ſlimy <hi>Stools,</hi> a white and pale <hi>
+                  <g ref="char:V">Ʋ</g>rine,</hi> and thin when it proceeds from <hi>Obſtructions,</hi> elſe thick, and troubled with a large Sediment; the <hi>Whites</hi> in Wo<g ref="char:EOLhyphen"/>men, <hi>&amp;c.</hi>
+            </p>
+            <p>
+               <hi>Thirdly,</hi> When <hi>Blood,</hi> there is</p>
+            <p>A large, full, and ſlow <hi>Pulſe.</hi>
+            </p>
+            <p>An Indifferent <hi>Appetite,</hi> and moderate <hi>Thirst, Burning Feavers, Phlegmons,</hi> &amp;c. fre<g ref="char:EOLhyphen"/>quent bleeding at Noſe, <hi>Haemorrhoides,</hi> and <hi>Womb,</hi> a good <hi>
+                  <g ref="char:V">Ʋ</g>rine,</hi> reddiſh <hi>Stooles,</hi> &amp;c.</p>
+            <p>
+               <hi>Fourthly,</hi> When <hi>Melancholly,</hi> you find</p>
+            <p>A ſlow and hard <hi>Pulſe.</hi>
+            </p>
+            <p>Sometimes loſs of <hi>Appetite,</hi> ſower <hi>Belch<g ref="char:EOLhyphen"/>ings, Quartane Agues, Spleen, Leproſy, Scabs, Piles, Vomitings,</hi> much <hi>Spitting, Costive Body,</hi> and blackiſh <hi>Stooles,</hi> thin <hi>
+                  <g ref="char:V">Ʋ</g>rine</hi> and pale, ſometimes thick and lived. Theſe are the moſt material Signs where the ſeveral <hi>Hu<g ref="char:EOLhyphen"/>mours</hi> predominate.</p>
+            <p>
+               <hi>Diſeaſes</hi> being reduced, as above, to a few Heads, according to the peccant <hi>Humours,</hi> their Method of Cure conſequently may be much contracted, with reſpect to the <hi>Hu<g ref="char:EOLhyphen"/>mours,</hi>
+               <pb n="12" facs="tcp:110467:11"/> the Part offended, and the manner, whether by <hi>Obstructions, Tumour,</hi> or other<g ref="char:EOLhyphen"/>wiſe. I ſhall here purpoſely omit treating on the Inconveniencies ſucceeding <hi>Inanition,</hi> being more <hi>Diaetetical</hi> than <hi>Pharmaceutical,</hi> a wholeſome and moderate Dyet proving ſufficient, where 'tis <hi>Simple,</hi> without the Complication of Praeternatural <hi>Humours,</hi> and then 'tis included in the following Methods.</p>
+            <p>For Example, in a <hi>Bilious Choli<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>k, Tertian Ague, Jaundies, Eriſipilas,</hi> one ſort of <hi>Palſey,</hi> &amp;c. <hi>Choler</hi> is the <hi>Diſeaſe,</hi> and theſe the ſeveral Appearances or Symptomes of the ſame, according to the <hi>Sedes,</hi> or <hi>pars recipiens,</hi> as amongſt other Signs is manifeſt by their frequent Changings from one to another.</p>
+            <p>And thus alſo a <hi>Defluxion,</hi> or <hi>Catarrh,</hi> poſ<g ref="char:EOLhyphen"/>ſibly cauſed by a total or partial Suppreſſion of inſenſible <hi>Tranſpiration,</hi> when it falls up<g ref="char:EOLhyphen"/>on the Eyes, Ears, Noſe, ſharp Arteries, Lungs, or Joynts, is diſtinguiſhed into ſeve<g ref="char:EOLhyphen"/>ral <hi>Diſeaſes,</hi> yet materially is the ſame, only invading different parts, and in the maine re<g ref="char:EOLhyphen"/>quiring the ſame Cure, and with equal faci<g ref="char:EOLhyphen"/>lity oft times to be purſued.</p>
+            <p>For the firſt, direct the moſt effectual <hi>Purgers</hi> of <hi>Choler,</hi> and the Application of ſui<g ref="char:EOLhyphen"/>table Strengtheners to the part affected, In<g ref="char:EOLhyphen"/>ward or Outward.</p>
+            <p>For the laſt, after general <hi>Catharticks,</hi> no<g ref="char:EOLhyphen"/>thing
+<pb n="13" facs="tcp:110467:11" rendition="simple:additions"/> ſeems more proper than <hi>Diaphoreticks,</hi> and <hi>Sudorificks,</hi> to promote ſenſible or inſen<g ref="char:EOLhyphen"/>ſible <hi>Tranſpiration</hi> (due regard being had to the Part affected) <hi>Evacuation</hi> in general being the chief way to overcome <hi>Diſeaſes:</hi> therefore a <hi>Feaver,</hi> and all ſorts of Fits cauſ<g ref="char:EOLhyphen"/>ed by <hi>Nature</hi> for Conſumption and Diſ<g ref="char:EOLhyphen"/>charge of the <hi>Morbifick Matter,</hi> are not to be hindred by the <hi>Jeſuits Powder,</hi> or other <hi>Astringents,</hi> but treated by Sweating, or other proper <hi>Evacuation,</hi> that ſo the Cauſe may be removed.</p>
+            <p>Wherein the pretended Tenderneſs of ſome <hi>Phyſitians</hi> (allowing long Intervals be<g ref="char:EOLhyphen"/>twixt <hi>Catharticks,</hi> or never uſing them) is real Cruelty to their <hi>Patients,</hi> giving thereby time to the <hi>Diſeaſe</hi> to recover Strength, and oft times to the hazard of the <hi>Patient</hi>'s Life; for either the <hi>Patient</hi> is Cured by the firſt, and needs no Repetition; or not reco<g ref="char:EOLhyphen"/>vered, and then indangered by ſuch Delay.</p>
+            <p>But a <hi>Phyſitian</hi> hath done his Duty, when he hath committed nothing he ought not, nor ſeaſonably omitted any thing he ought to have uſed, be the Succeſs what it will; which notwithſtanding always follows a due Courſe of right means, as wetting doth na<g ref="char:EOLhyphen"/>turally the uſe of Water, and burning the application of Fire; and when ſucceſs fails, 'tis either becauſe the wrong means were re<g ref="char:EOLhyphen"/>lyed
+<pb n="14" facs="tcp:110467:12"/> on, or the right not ſeaſonably exhi<g ref="char:EOLhyphen"/>bited in quantity, both for weight and time. And he certainly is the moſt ufeful and skil<g ref="char:EOLhyphen"/>ful <hi>Phyſitian</hi> who can beſt diſcover a <hi>Diſeaſe,</hi> and the fitteſt Method to Cure it; and al<g ref="char:EOLhyphen"/>ways in like number, and equally difficult Caſes, hath the beſt Succeſs.</p>
+            <p>His principal Work therefore (taking it for granted, that <hi>Diſeaſes</hi> muſt be expel<g ref="char:EOLhyphen"/>led before the Part can be ſtrengthend, as be<g ref="char:EOLhyphen"/>ing impoſſible otherwiſe to be expiated or tranſmitted) is to make a wiſe choice of the forementioned ways of Evacuation, to anſwer the ſeveral Indications, it being very evident, that according to the occaſion, one ſort is not only more effectual, but alſo the other may be dangerous; as in the <hi>Small-pox Sudorificks</hi> are commonly moſt ſucceſsful, <hi>Bleeding</hi> commonly mortal, except very early performed; therefore <hi>Nature</hi> being the beſt Guide, ſeldom or never leaves a curious Ob<g ref="char:EOLhyphen"/>ſerver without ſome Circumſtance to lead him into the ready way.</p>
+            <p>And of all ſorts of <hi>Evacuation, Vomits</hi> are found by long and dayly Experience, the moſt ſucceſsful, and yet by the ignorant, moſt oppoſed as dangerous and violent, when poſſibly it may not be ſo very difficult to prove, that <hi>Vomits</hi> are the real <hi>Cordials,</hi> which (by fortifying <hi>Nature</hi>) enables it
+<pb n="15" facs="tcp:110467:12" rendition="simple:additions"/> to throw off the <hi>Diſeaſe</hi> by <hi>Vomit<gap reason="illegible" resp="#MURP" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+               </hi> or other<g ref="char:EOLhyphen"/>wiſe, and that 'tis no Malignity in the <hi>Vomit</hi> which cauſeth thoſe Gripes and Sickneſs uſu<g ref="char:EOLhyphen"/>ally attending it, but the Motion of the <hi>Hu<g ref="char:EOLhyphen"/>mours</hi> which <hi>Nature</hi> (being revived by the <hi>Medicine,</hi> improperly called a <hi>Vomit</hi>) is up<g ref="char:EOLhyphen"/>on expelling.</p>
+            <p>When <hi>Vomits</hi> are directed according to Art, with reſpect to the <hi>Patient</hi>'s Strength, <hi>Indications</hi> for them, and no <hi>contra-Indica<g ref="char:EOLhyphen"/>tions</hi> lying againſt their Uſe, 'tis one of the moſt effectual means for rooting out of <hi>Diſ<g ref="char:EOLhyphen"/>eaſes,</hi> and is confeſt by <hi>Quercetan, Fernelius, Riverius, Willis,</hi> and divers others.</p>
+            <p>So ordered, they do not only empty (as the Vulgar imagine) the Stomach, from which all parts receive their Nouriſhment, and when foul, can never have good afforded, but both the neighbouring and remoter parts, as the ſame, and other Authors readily ac<g ref="char:EOLhyphen"/>knowledge.</p>
+            <p>And (though of the ſix only Inlets of <hi>Diſeaſes,</hi> the Errours of the <hi>Non-naturals,</hi> Food is but one) yet ſhall the Stomach be affected, and ſympathize with moſt, if not all the other parts, though the <hi>Diſeaſe</hi> be cauſed by any of the other five; for inſtance, tread upon a Man's <hi>Corn,</hi> and he ſhall imme<g ref="char:EOLhyphen"/>diately be ſick at Stomach; bring him ill Tydings, and though never ſo ſharp ſet be<g ref="char:EOLhyphen"/>fore,
+<pb n="16" facs="tcp:110467:13"/> his <hi>Appetite</hi> preſently flags: and <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> a <hi>Head-ach</hi> be cauſed by Wind or Sun, <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Stomack ſhall not eſcape.</p>
+            <p>
+               <hi>Vomits</hi> reach thoſe <hi>Humours,</hi> no other ſort of <hi>Evacuation</hi> can touch, at leaſt <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſo cer<g ref="char:EOLhyphen"/>tainly, nor without more frequent Repetiti<g ref="char:EOLhyphen"/>ons: And prepared accordingly, may be given to Old and Young, Men or Women, with Child, or not (but with great Cauti<g ref="char:EOLhyphen"/>ouſneſs to the Female Sex) in moſt, if not all Diſtempers Beginning, Increaſe, State or Declination, at all hours Day and Night, when-ever the Stomach is principally, or by conſent diſordered, always diſcerned by loſs of Appetite, Pain, Heavineſs or Fulneſs at the Stomack, Vomiting, or Reaching to Vomit.</p>
+            <p>
+               <hi>Quercitan</hi> ſp<gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ng of <hi>Vomits</hi> in the 17th. Chapter of his <hi>Pharmacopeia,</hi> declares, That <hi>Art</hi> muſt al<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap> follow <hi>Nature;</hi> which of its own <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> endeavours all ſorts of Eva<g ref="char:EOLhyphen"/>cuation, <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> there enumerated, as <hi>Stool, <g ref="char:V">Ʋ</g>rine, S<gap reason="illegible" resp="#MURP" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>t,</hi> and <hi>Vomit,</hi> for the General; and the Exc<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ments of the <hi>Noſe</hi> and <hi>Mouth</hi> by S<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>iva<gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>n and Spitting, for Particulars; all w<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ch <hi>Ar<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> 
+               <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>mnſt<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>mitate.</p>
+            <p>
+               <hi>Vo<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>its</hi> (<gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> he) antiently were in great Eſtee<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and much more in Uſe than now; for our late <hi>Phyſitians</hi> reject them, by reaſon they do (as they ſuppoſe, very much diſturb
+<pb n="17" facs="tcp:110467:13" rendition="simple:additions"/> the Body, introducing dangerous Symp<g ref="char:EOLhyphen"/>tomes, and that (our <hi>Climate</hi> being colder than <hi>Graece,</hi> where <hi>Hypocrates</hi> and other <hi>Graecians</hi> uſed them, and our Inhabitants more <hi>Flegmatick) Vomits</hi> are not ſo needful: But theſe are generally granted to be idle Reaſons, and therefore exploded; for on the contrary, <hi>Vomits</hi> are found to be very uſeful and neceſſary for rooting out the moſt deſ<g ref="char:EOLhyphen"/>perate and moſt difficult Diſeaſes no ways elſe to be effected; the mention of which alone affrights our Hen-hearted <hi>Phyſitians.</hi> But how can they then boaſt themſelves Friends to Nature who (neglecting the moſt powerful Remedies, without daring ſo much as to make Tryal) prove rather her Enemies and Flatterers, ſeeking to defend her with Helps too weak and inconſiderable, never thinking to attacque her Foe with powerful Weapons, who in the mean time remains unhurt by their gentle <hi>Medicines,</hi> even <hi>deſpiſing</hi> the milder <hi>Vomits;</hi> after which, in vain applyed, they dare not return the ſe<g ref="char:EOLhyphen"/>cond time to the ſame Remedy. This Au<g ref="char:EOLhyphen"/>thor enumerates ſome Cautions in giving <hi>Vo<g ref="char:EOLhyphen"/>mits,</hi> and afterwards declares what <hi>Sponta<g ref="char:EOLhyphen"/>neous Vomiting</hi> is; and further adds, that the <hi>Ancients</hi> ordered <hi>Vomits</hi> more unſafe than thoſe of late Days invented; making men<g ref="char:EOLhyphen"/>tion of divers extraordinary Cures of <hi>Rulan<g ref="char:EOLhyphen"/>dus,</hi>
+               <pb n="18" facs="tcp:110467:14"/> and afterwards cites two; in the firſt of which he relates the great <hi>Agony</hi> a <hi>Patient</hi> ſuffered by a <hi>Vomit,</hi> but yet was Cured, tho forſaken by all the <hi>Doctors</hi> before. The laſt is more conſiderable, for the ſtrange matter brought away, and the great ſucceſs enſuing, ſo that he reſolves to publiſh it to the World, to the end thoſe <hi>Phyſitians</hi> (who through a worſe Fear than that of a <hi>Hare,</hi> wick<g ref="char:EOLhyphen"/>edly condemn this way of Purging) may ſee their great Errour.</p>
+            <p>
+               <hi>Riverius</hi> in his Inſtitutions acknowledg<g ref="char:EOLhyphen"/>eth, That <hi>Humours</hi> contained in the Stomach and Neighbouring Parts, are eaſier Purged off by <hi>Vomit</hi> than <hi>Stool,</hi> it being the ſhorteſt way; and though <hi>Vomits</hi> are not much in uſe; yet 'tis very certain, that being diſcreet<g ref="char:EOLhyphen"/>ly appointed, they work admirable Effects; for many Intermitting <hi>Feavers</hi> remaining (notwithſtanding other <hi>Medicines</hi>) immo<g ref="char:EOLhyphen"/>veable, are by <hi>Vomits</hi> only eradicated, as appears by frequent Experiments; which he purſues with divers Inſtances; and for a further Confirmation, pleaſe to take notice of a late Inſtance of the King of <hi>France,</hi> the 1st. of <hi>July,</hi> 1658, who being taken with a <hi>Malignant Feaver,</hi> removed to <hi>Calais,</hi> where his life being deſpair'd of, the <hi>Phyſitians</hi> (find<g ref="char:EOLhyphen"/>ing his Strength dayly decay, his <hi>Diſeaſe</hi> in<g ref="char:EOLhyphen"/>creaſe,
+<pb n="19" facs="tcp:110467:14"/> and that the ſecond bleeding in the Foot, on the 8th. of the ſaid Month, gave no Relief) upon a full Conſultation in the Preſence of the <hi>Cardinal,</hi> reſolved to give him an <hi>Antimonial Vomit,</hi> which the King took with great hopes of Relief; according<g ref="char:EOLhyphen"/>ly the Operation was ſo happy and ſpeedy, that after emptying the Stomack and Bow<g ref="char:EOLhyphen"/>els of a great deal of malignant and aduſt Matter, he found himſelf much eaſed the ſame Night, next Morning, being the 10th. he took the ſecond <hi>Purge,</hi> which altho more gentle, work't notwithſtanding ſo well, that in five or ſix days he was perfectly recovered. If this Remedy had been delayed twenty four hours longer, or that it had not work't with<g ref="char:EOLhyphen"/>in twenty four hours, the King's Recovery had been abſolutely deſperate. This Rela<g ref="char:EOLhyphen"/>tion was taken out of the Hiſtory of the <hi>Treaty of Peace</hi> Concluded on the Frontiers of <hi>Spain</hi> and <hi>France,</hi> Anno 1659.</p>
+            <p>
+               <hi>Diſeaſes,</hi> ſays <hi>Böetius,</hi> are Cured by the <hi>Aegyptians,</hi> either with <hi>Faſting<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> or <hi>Vomits</hi> every, or every third or fourth day; for ſay they, All <hi>Diſeaſes</hi> proceed from Super<g ref="char:EOLhyphen"/>fluity of Dyet, therefore that is like to be the beſt reſtorer of Health which takes away the Principles of <hi>Diſeaſes. Sydenham,</hi> quo<g ref="char:EOLhyphen"/>ted by <hi>Bonetus</hi> in the <hi>Engliſh Tranſlation,</hi>
+               <pb n="20" facs="tcp:110467:15"/> fol. 159. Sect. 13, 14; intimates, That if he were permitted, he would give <hi>Vomits</hi> in the beginning of all <hi>Feavers</hi> and <hi>Dropſies.</hi>
+            </p>
+            <p>
+               <hi>
+                  <g ref="char:V">Ʋ</g>ncerus</hi> in <hi>Anſwer</hi> to <hi>Objections,</hi> in Chap. 14. Book I. of the <hi>Stone,</hi> aſſerts, That <hi>Vo<g ref="char:EOLhyphen"/>mits</hi> do not weaken the Stomach, unleſs ir<g ref="char:EOLhyphen"/>regularly given; but on the contrary, ſtrengthen it, by carrying off the <hi>Humours</hi> that infeſt it.</p>
+            <p>That <hi>Vomits</hi> are given in <hi>Vomitings</hi> to root out <hi>Choler</hi> the ſooner.</p>
+            <p>That <hi>Vomitings</hi> in the <hi>Stone</hi> are not to be hindered, but furthered.</p>
+            <p>That <hi>Vomits</hi> have been extreamly helpful in the <hi>Stone.</hi>
+            </p>
+            <p>That whatſoever removes the Cauſe of Diſeaſes, and cleanſeth the Stomach of the tartarous Matter, is uſeful in the <hi>Stone;</hi> which <hi>Vomits</hi> do.</p>
+            <p>That <hi>Vomits</hi> take off all <hi>Humours,</hi> prevent the <hi>Stone,</hi> and Cure it; and may as well be given for it as <hi>Purges;</hi> which none ſcruple.</p>
+            <p>All which he ſtrengthens by <hi>Quotations</hi> out of divers eminent Authors in the fol<g ref="char:EOLhyphen"/>lowing 15th. Chap. To which again he briefly ſubjoyns his own Opinion.</p>
+            <p>
+               <hi>Willis,</hi> pag. 26, &amp; 27 of his <hi>Rational Phar<g ref="char:EOLhyphen"/>macy,</hi> ſaith, <hi>That as the Operation</hi> by Vomit
+<pb n="21" facs="tcp:110467:15" rendition="simple:additions"/> 
+               <hi>is more violent than by</hi> Stool; <hi>ſo in moſt Di<g ref="char:EOLhyphen"/>stempers, where 'tis with Judgment directed, it doth more good than ten</hi> Purges. For by this the heavy <hi>Flegm,</hi> untouch'd by <hi>Purges,</hi> is removed; beſides, the Neighbour<g ref="char:EOLhyphen"/>ing Parts are cleanſed: So that <hi>Obſtructions</hi> there made, and Stagnation of <hi>Humours</hi> in the <hi>Blood,</hi> are eaſily helped, Praeternatural <hi>Ferments,</hi> and deeply rooted Diſeaſes can by no other means be removed; epecially of the <hi>Brain</hi> and <hi>Nervs.</hi> Then giving an Account how they work: He concludes, <hi>That moſt deſperate Diſeaſes are beſt Cured by</hi> Vomits, <hi>and hardly without them.</hi>
+            </p>
+            <p>
+               <hi>Berniers,</hi> a <hi>French</hi> Author of the <hi>Memoirs</hi> of the Empire of <hi>Mogul,</hi> pag. 170, in his Voyage of <hi>Rachimire,</hi> ſpeaks thus in com<g ref="char:EOLhyphen"/>mendation of <hi>Vomits: By opening of the</hi> Plague-Sore, <hi>I was my ſelf ſoon Infected; ſo that had I not forthwith taken ſome</hi> Butter <hi>of</hi> Antimony, <hi>I might have been as well as others an Example of the little certainty there is of the</hi> Plague <hi>after the Dew: But this Eme<g ref="char:EOLhyphen"/>tick Medicine in the beginning of the Evil, did Wonders, and I kept but three or four days within doors.</hi>
+            </p>
+            <pb n="22" facs="tcp:110467:16"/>
+            <p>
+               <hi>Hypocrates</hi> and <hi>Fernelius</hi> are both quoted to this purpoſe in the <hi>Pharmacopeia Auguſta<g ref="char:EOLhyphen"/>na. Hypocrates</hi> in the 17, &amp; 18 <hi>Aphoriſme</hi> of the fourth Book, directed a <hi>Vomit</hi> to all ſuch as, having no <hi>Feaver,</hi> complain of loſs of <hi>Appetite, Gnawing</hi> at the Stomach, <hi>dark, melancholy Vertigoes</hi> or <hi>Fumes,</hi> or <hi>Bitterneſs</hi> in the <hi>Mouth:</hi> and alſo to Purge by <hi>Vomit,</hi> when ever Pains and Illneſs ariſe above the <hi>Diaphragma;</hi> and by <hi>Stool</hi> when below. And <hi>Fernelius</hi> in the 3d. Chap. of the 3d. Book of his <hi>Methodus Medendi,</hi> ſpeaking of <hi>Vomits,</hi> ſays, That they are moſt effectual, and beſt of all Purges, where moderate and eaſie; for they draw forth, and empty the true hurtful <hi>Humours,</hi> and chiefly cleanſe all the Filth which hangs in the Capacity and Tunicles of the Stomack, and expel out of the <hi>Membranes</hi> of the <hi>Praecordia,</hi> the hollow of the <hi>Spleen</hi> and <hi>Liver,</hi> and the <hi>Pancreas,</hi> the ſincere ſuperfluous <hi>Humour</hi> of all ſorts, which for the moſt part, neither <hi>Hiera,</hi> nor any other ſtrong <hi>Medicine,</hi> tho often repeated, can move in the <hi>Belly;</hi> for the Paſſages are ſhorter &amp; readier out of thoſe parts into the Stomach than into the Belly; which makes <hi>Vomiting</hi> eaſie. And although at firſt it on<g ref="char:EOLhyphen"/>ly diſchargeth the Inward Parts, yet conſe<g ref="char:EOLhyphen"/>quently it eaſeth the Head and the reſt of the Body.</p>
+            <pb n="23" facs="tcp:110467:16"/>
+            <p>Wherefore it helps all Diſeaſes ari<g ref="char:EOLhyphen"/>ſing from the Impurity of the <hi>Praecordia,</hi> as, <hi>Languiſhing Appetite, Reaching</hi> to <hi>Vomit, Loathing</hi> of <hi>Food, Frequent Vomitings, Diſten<g ref="char:EOLhyphen"/>tion</hi> of the <hi>Stomack</hi> and <hi>Praecordia, Jaundice,</hi> and <hi>Green Sickneſs, Intermitting-Feavers, Head-Ach, Vertigoes, Night-Mares, Falling-Sickneſs, Suffuſion,</hi> and all Diſeaſes of the Head, contracted by the Sympathy of the <hi>Praecordia,</hi> and brought forth by the Impuri<g ref="char:EOLhyphen"/>ties of the ſame, thrown off upon the reſt of the Body; in ſhort therefore, in every Diſ<g ref="char:EOLhyphen"/>eaſe, where a languiſhing <hi>Appetite</hi> and deſire of <hi>Vomiting,</hi> troubles the <hi>Patient,</hi> and <hi>Purges</hi> do not, <hi>Vomits</hi> muſt Cure; for what <hi>Purges</hi> cannot waſh away, <hi>Vomits</hi> root out; and what deſcends not eaſily from thoſe Parts into the Bowels, readily returns into the Stomach.</p>
+            <p>I chooſe to make the <hi>Quotations</hi> intire, tho they ſerve to confirm ſeveral of my <hi>Poſitions;</hi> which the Judicious Reader may eaſily ap<g ref="char:EOLhyphen"/>ply.</p>
+            <p>The Reaſons therefore why <hi>Vomits</hi> are ſo much laid aſide, are firſt, they Cure too ſoon for ſome <hi>Phyſitians</hi> Advantage, and by their ſeeming Violence in Operation diſguſt the <hi>Patients;</hi> who being for the moſt part ſhort ſighted, chooſe to avoid a preſent Trouble though to their future prejudice, rather than
+<pb n="24" facs="tcp:110467:17"/> endure it for Recovery of Health, or ſaving Life, as the Author of the <hi>Hiſtory</hi> of <hi>Venice</hi> formerly cited, takes notice, pag. 262, of the Feebleneſs and Ignorance of Mankind, who not regarding the Future, chooſe rather to looſe all afterward than at preſent to part with any thing, tho for the ſafety of the reſt; like thoſe obſtinate Perſons, who rather run the hazard of a <hi>Gangraene</hi> than endure the Pain of an inconſiderable Inciſion.</p>
+            <p n="2">2dly. When they are given, and <hi>Patients</hi> die after, either by the Malignity of the Diſ<g ref="char:EOLhyphen"/>eaſe, or great Progreſs it had made, or the <hi>Patient</hi>'s unwillingneſs to repeat them as oft as neceſſary for maſtering any deſperate Di<g ref="char:EOLhyphen"/>ſtemper, they uſually have the ill luck to bear the blame; whereas the Diſeaſe is ge<g ref="char:EOLhyphen"/>nerally and truly accuſed, when inſignificant and comfortable <hi>Cordials</hi> are given without them, though probably the Diſeaſe had not got the Victory, if <hi>Vomits</hi> had been duly pre<g ref="char:EOLhyphen"/>ſcribed; nor is it difficult to prove, that fewer die by ſome hundreds, if not thou<g ref="char:EOLhyphen"/>ſands, after <hi>Vomits,</hi> than after thoſe Com<g ref="char:EOLhyphen"/>fortable <hi>Cordials.</hi> If that therefore were a good Exception, it lyes ſtronger againſt <hi>Cordials.</hi>
+            </p>
+            <p>So that the <hi>Patient's</hi> Humour or Inclinati<g ref="char:EOLhyphen"/>on concurs here with the <hi>Phyſitian's</hi> Intereſt, not to ſhorten the Cure by <hi>Vomits,</hi> but to mul<g ref="char:EOLhyphen"/>tiply
+<pb n="25" facs="tcp:110467:17"/> Fees by protracting it with <hi>Cordials:</hi> to the <hi>great diſcouragement</hi> of <hi>Honeſty</hi> and <hi>Skill,</hi> which neither pleaſeth the <hi>Patient,</hi> nor en<g ref="char:EOLhyphen"/>riches the <hi>Poſſeſſor.</hi>
+            </p>
+            <p>Much to this purpoſe ſpeaks the afore<g ref="char:EOLhyphen"/>ſaid Author of the <hi>Venetian Hiſtory,</hi> pag. 263. <hi>That Ill Counſels are most acceptable, and Good not only rejected, but heard with Indignation.</hi>
+            </p>
+            <p>And <hi>Riverius</hi> alſo in the 9th. <hi>Obſer.</hi> of the ſecond <hi>Cent.</hi> complains, that <hi>Phyſitians</hi> are under a kind of Neceſſity to forbear doing their Patients good, to pleaſe them: in theſe words: <hi>The Malepertneſs of our Wo<g ref="char:EOLhyphen"/>men imputing every unhappy Succeſs to the Remedies, makes the more prudent</hi> Phyſitians, <hi>for fear of Calumny, to abstain from the <g ref="char:V">Ʋ</g>ſe of the best Medicine.</hi>
+            </p>
+            <p>Some offer a ſeeming great <hi>Objection, That</hi> Vomits <hi>are exceeding dangerous, becauſe of their Violent Operation:</hi> Not conſidering they work the more upon the <hi>peccant Humour,</hi> nor remembring the ill Conſequence of Delay. Where gentle means lead as certainly to the ſame end, violent are not pleaded for; but where violent will, and gentle will not, they ought to be preferred: for which is moſt eli<g ref="char:EOLhyphen"/>gible, to be one of the nineteen that eſcape of 20 that leap overboard when a <hi>Ship</hi> is on fire, or ſtay behind with five hundred that dread the preſent danger of Drowning, and are
+<pb n="26" facs="tcp:110467:18"/> certainly in a few minutes after deſtroyed with the Ship by fire.</p>
+            <p>But this <hi>Object.</hi> againſt <hi>Vomits</hi> may eaſily be removed; for the Violence of their Opera<g ref="char:EOLhyphen"/>tion is but remotely the effect of the <hi>Medi<g ref="char:EOLhyphen"/>cine,</hi> it being the natural and immediate con<g ref="char:EOLhyphen"/>ſequence of the Motion of the Morbifick Matter, and ought as patiently to be born as Labour when a Women is with Child, the <hi>Periodick Vomiting Motions</hi> being no o<g ref="char:EOLhyphen"/>ther than the <hi>Periodick Throws</hi> in Labour, for the Expulſion of what Nature deſires to be freed from, the Reaſons being the ſame, <hi>Viz. Irritation,</hi> from the uneaſineſs by the increaſe of new uſeleſs Matter: Time for <hi>Natures</hi> recovery of ſtrength between every Throw or Vomiting: and the trouble of com<g ref="char:EOLhyphen"/>preſſing and ſqueezing out by the expulſive Faculty; and this is no new conceit, for <hi>Fernelius</hi> in the 3d. Chap. of his 3d. Book of his <hi>Rationes Medendi</hi> uſeth the ſame Com<g ref="char:EOLhyphen"/>pariſon.</p>
+            <p>Even as the <hi>Womb</hi> in Labour, with col<g ref="char:EOLhyphen"/>lected ſtrength from all parts, contracts it ſelf cloſely to the upper parts whereby it may bring forth the Birth: So alſo the Sto<g ref="char:EOLhyphen"/>mack tyred with the Injury of things offen<g ref="char:EOLhyphen"/>ſive, by compreſſing the bottom is by force wholly moved upwards, throwing out all that is offenſive by <hi>Vomit.</hi> This is the moſt
+<pb n="27" facs="tcp:110467:18"/> manifeſt of all natural Motions, by which the Stomack alſo ſpringing from its proper place, puts a Force upon the neighbouring Parts to which 'tis faſtned, whence ariſeth the difficulty and violence in Vomiting, tho to ſome more, ſome leſs.</p>
+            <p>And it may further be obſerved, that Per<g ref="char:EOLhyphen"/>ſons are as ſick, when by a <hi>Surfeit, Great Bel<g ref="char:EOLhyphen"/>ly, Giddineſs,</hi> or <hi>Sea-Voyage</hi> they vomit bit<g ref="char:EOLhyphen"/>ter or ſower <hi>Choler,</hi> melancholy or tough <hi>Phlegm,</hi> as when they take a <hi>Shop-Vomit,</hi> or drink large quantities of <hi>Luke-warm Wa<g ref="char:EOLhyphen"/>ter,</hi> or <hi>Poſſet-Drink,</hi> or (as they are called) the milder <hi>Vomits</hi> ſuch as <hi>Groundſel,</hi> or <hi>Carduus,</hi> provided they eradicate the ſame Matter; and upon taking a <hi>Vomit,</hi> if that Matter be not brought up or ſtirred by rea<g ref="char:EOLhyphen"/>ſon of a <hi>Congeries</hi> of other more ea<g ref="char:EOLhyphen"/>ſily moved and in the way, or that there is but a ſmall Quantity to be removed, the Patient ſhall be no more ſick than when he drinks ſo much <hi>Wine</hi> or <hi>Water,</hi> which for il<g ref="char:EOLhyphen"/>luſtration ſake, may be plainly proved by the different Working of three of the very ſame <hi>Vomits</hi> for ſubſtance and meaſure in the ſame Perſon within a few days one after the other: For Inſtance; the firſt ſpending it ſelf upon a large quantity of ſerous <hi>Mat<g ref="char:EOLhyphen"/>ter,</hi> and ſome tough <hi>Phlegm,</hi> gripes but lit<g ref="char:EOLhyphen"/>tle,
+<pb n="28" facs="tcp:110467:19"/> and cauſes no great Sickneſs. The 2d. penetrating deeper, and finding little or none of the firſt <hi>Humour</hi> to take off its edge, by pumping out the green and yellow Matter, cauſes Gripes, great Sickneſs, Faintneſs, cold Sweats, and almoſt <hi>Convulſions;</hi> which is no otherwiſe than when the ſame ſtuff is caſt off by Nature without a <hi>Vomit.</hi> The 3d. <hi>Vomit</hi> again ſhall hardly work at all, moſt of both ſorts of the <hi>Morbifick Matter</hi> being re<g ref="char:EOLhyphen"/>moved by the two former, and conſequently it cauſeth little or no Sickneſs. So that this violence only proceeds from removing the Diſeaſe (not to be avoided, if willing to be rid of the ſame) it not being the immediate effect of the <hi>Vomit,</hi> for then 'twould always accompany it; which by Experience is found otherwiſe. But in truth, a <hi>Vomit</hi> enables <hi>Nature</hi> to ſeparate and ſqueeze out thoſe <hi>Hu<g ref="char:EOLhyphen"/>mours</hi> which are imcompatible with, and Praeternatural to it, and that Expulſion being the Work of Nature, is the true Cauſe of that Pain and Sickneſs.</p>
+            <p>And for that Reaſon there is no more dan<g ref="char:EOLhyphen"/>ger in this <hi>Artificial</hi> than in a <hi>Praeternatural</hi> or <hi>Spontaneous Vomiting,</hi> which, or ſome other effectual Evacuation, muſt either be endured together, or divided, or the Diſeaſe muſt continue, unleſs by a preſent quieting <hi>Medicine,</hi> a Foundation for future <hi>Chronical
+<pb n="29" facs="tcp:110467:19"/> Diſtempers,</hi> be layed; for Praeternatural Hu<g ref="char:EOLhyphen"/>mours, once in the Body, if not ejected, will make their way to one part or other, eſpecially to the weak, if any ſuch, they be<g ref="char:EOLhyphen"/>ing altogether incapable of ever after being made uſeful to the Body.</p>
+            <p>A Second <hi>Objection</hi> often brought againſt their uſe is, <hi>That Nature never made the Sto<g ref="char:EOLhyphen"/>mack for Diſcharge of Excrements upwards.</hi>
+            </p>
+            <p>To which, an <hi>Anſwer</hi> may be given, not much unlike one more witty than true, of Sir <hi>Francis Pruiyan</hi> in another Caſe to a Gen<g ref="char:EOLhyphen"/>tleman reproaching him for uſing Forraign <hi>Drugs,</hi> when ſufficient were produced at home, according to the common Saying, <hi>That every Countrey is furniſhed with neceſſa<g ref="char:EOLhyphen"/>ry Medicines for the Diſeaſes of the Place</hi> which he acknowledged: but withal told him, That if he went beyond Sea for Food, as <hi>Wine</hi> and <hi>Spice,</hi> he muſt do the like for <hi>Phyſick.</hi>
+            </p>
+            <p>And ſo in this Caſe the <hi>Fundament</hi> and o<g ref="char:EOLhyphen"/>ther uſual Vents are ſufficient for diſcharge of Natural Excrements when the Party is in Health; but if by Plenty, Luxury, and La<g ref="char:EOLhyphen"/>zineſs <hi>Praeternatural Excrementitious Hu<g ref="char:EOLhyphen"/>mours</hi> are collected to diſeaſe Mankind, new ways for their Diſcharge muſt likewiſe be invented, and this <hi>Nature</hi> directs.</p>
+            <p>Furthermore, divers Excrements are na<g ref="char:EOLhyphen"/>turally
+<pb n="30" facs="tcp:110467:20"/> voided upwards by <hi>Noſe</hi> and <hi>Mouth,</hi> and theſe ſort of <hi>Humours</hi> can ſeldom or never be carryed away by <hi>Stool,</hi> nor are they the ſame that naturally paſs that way; but I preſume no <hi>Salivator</hi> will ſtiffly main<g ref="char:EOLhyphen"/>tain this <hi>Objection.</hi>
+            </p>
+            <p>A Third <hi>Objection</hi> is, <hi>That granting Vomits to be more powerful than other Remedies, yet 'tis inexcuſable to give them upon every ſlight occaſion.</hi>
+            </p>
+            <p>Which truely ſeems plauſible till 'tis con<g ref="char:EOLhyphen"/>ſidered, That Diſeaſes are not always ſafely to be truſted, becauſe divers at firſt have ap<g ref="char:EOLhyphen"/>peared mild, which too late have been diſcovered to be dangerous and malignant, and an opportunity loſt may be a Life loſt: but no other uſe of them is pleaded for, ex<g ref="char:EOLhyphen"/>cept where <hi>Nature</hi> directs; or when in all likelihood moſt ſafe, and where no other Inconvenience can thereby happen, but a ſpeedier Cure.</p>
+            <div type="appendix">
+               <pb n="31" facs="tcp:110467:20"/>
+               <head>A ſhort <hi>Appendix</hi> of <hi>PRACTICE.</hi>
+               </head>
+               <p>PReſerve your Health by Temperance in <hi>Meat</hi> and <hi>Drink,</hi> Convenient <hi>Reſt</hi> and <hi>Labour, Sleeping</hi> and <hi>Watching, Excre<g ref="char:EOLhyphen"/>tion</hi> and <hi>Retention,</hi> good <hi>Air,</hi> and moderate Paſſions, eſpecially <hi>Grief, Anger,</hi> &amp;c.</p>
+               <p>But when, by the Abuſe of any of theſe <hi>Non-Naturals, Health</hi> is impaired, Recover it by proper <hi>Evacuation,</hi> as before menti<g ref="char:EOLhyphen"/>oned, and the occaſional Uſe of <hi>Hypno<g ref="char:EOLhyphen"/>ticks.</hi>
+               </p>
+               <p>Begin to apply your Remedies immedi<g ref="char:EOLhyphen"/>ately after you find your ſelf diſordered, for Delays breed danger,
+<q>
+                     <l>Quod hodie non fit, cras minus aptus erit;</l>
+                     <l>Principijs obſta, post eſt occaſio calva.</l>
+                  </q>
+               </p>
+               <p>Therefore, as oft as ye are <hi>Bound,</hi> take a <hi>Lenient Clyster,</hi> or ſome gentle <hi>Purge,</hi> ex<g ref="char:EOLhyphen"/>cept there were any probable Appearance of <hi>Plague, Small-Pox,</hi> or the like Peſtilential Diſtempers, and then a <hi>Suppoſitory,</hi> as a <hi>Vi<g ref="char:EOLhyphen"/>olet Comfit,</hi> or <hi>Candles Ends</hi> may be beſt.</p>
+               <p>At all times when your <hi>Appetite</hi> is loſt or dulled, a Loathing, Vomiting, Sickneſs or
+<pb n="32" facs="tcp:110467:21"/> Pain at your Stomack attends you, then <hi>Vo<g ref="char:EOLhyphen"/>mits</hi> are the beſt Remedies, though <hi>Cathar<g ref="char:EOLhyphen"/>ticks</hi> may ſometimes recover you, when the Inconvenience is not great.</p>
+               <p>And then take a <hi>Vomit,</hi> drinking Poſſit-Drink, thin Broth, or Luke-warm water du<g ref="char:EOLhyphen"/>ring the Working, and repeat it two or three days together; if your Stomack continues diſordered, the <hi>Feaver</hi> Violent, or intermit<g ref="char:EOLhyphen"/>ting; giving it then juſt before the Fits.</p>
+               <p>After the working of <hi>Vomits,</hi> or ſtrong <hi>Purgers,</hi> and where Sleep is wanting, take a quieting Remedy for Sleep.</p>
+               <p>In all <hi>Feavers,</hi> after convenient <hi>Purging</hi> and <hi>Vomiting;</hi> and whereever <hi>Sweating</hi> is neceſſary to remove Pains, Soreneſs, or Wea<g ref="char:EOLhyphen"/>rineſs, take a <hi>Sweating Remedy.</hi>
+               </p>
+               <p>
+                  <hi>Bleeding</hi> is good in all <hi>Feavers (Plague, Small-pox, Meaſels, Spotted,</hi> or <hi>Malignant Feavers</hi> excepted) in all Pains of the Head or Limbs, <hi>Pleuriſy,</hi> Running Pains, in Fulneſs of Blood, in Youth, in all <hi>Coughs,</hi> and <hi>In<g ref="char:EOLhyphen"/>flammation</hi> of any Part; but 'tis not only more advantageous in one Part than another, but alſo more prejudicial when taken out of a wrong place.</p>
+               <p>Whenſoever you happen to have any Stop<g ref="char:EOLhyphen"/>page of <hi>
+                     <g ref="char:V">Ʋ</g>rine</hi> by <hi>Stone, Gravel, Cholick,</hi> or otherwiſe, make uſe of <hi>Diureticks, Clyſters,</hi> and the other Remedies, provided there be Indications.</p>
+               <pb n="33" facs="tcp:110467:21"/>
+               <p>For the <hi>Itch,</hi> Purge, and waſh the place with <hi>Tobacco Stalks</hi> boyled in <hi>Beer,</hi> or <hi>
+                     <g ref="char:V">Ʋ</g>rine:</hi> or anoint with <hi>Olium Laurium</hi> with <hi>Brim<g ref="char:EOLhyphen"/>stone,</hi> or powdered <hi>Ginger.</hi>
+               </p>
+               <p>For <hi>Boyls, Swellings,</hi> or other <hi>Breakings out,</hi> apply <hi>Pulteſſes,</hi> or <hi>Drawing</hi> and <hi>Ripening Plasters</hi> to break or diſcuſs them, or a <hi>Cau<g ref="char:EOLhyphen"/>ſtick;</hi> and, if they are not malignant, or that they are in a Part to which either you can<g ref="char:EOLhyphen"/>not at all, or not conveniently make an out<g ref="char:EOLhyphen"/>ward Application, then <hi>Purge</hi> or <hi>Flux.</hi>
+               </p>
+               <p>Never leave a Diſeaſe till the Diſeaſe quits the Patient, for that gives it but time to re<g ref="char:EOLhyphen"/>cover: The weaker the Patient, the ſtronger and ſpeedier ought the Remedy to be, be<g ref="char:EOLhyphen"/>cauſe there is no time to looſe; and the ſtron<g ref="char:EOLhyphen"/>ger the Remedy, if not beyond Reaſon, the quicker will the Patient recover ſtrength, and much ſooner than no Remedy, or but a weak one.</p>
+            </div>
+            <div type="direction">
+               <head>Here followeth a Short Direction, formerly deſigned for the <hi>Eng<g ref="char:EOLhyphen"/>liſh</hi> Army <hi>in</hi> Flanders.</head>
+               <p>THe Poverty and Diſcontents of the rui<g ref="char:EOLhyphen"/>ned Inhabitants in <hi>Flanders.</hi>
+               </p>
+               <p>The <hi>Intemperance,</hi> and thence the fre<g ref="char:EOLhyphen"/>quent <hi>Indigences</hi> of the Soldiers, whence their Troubles of Mind.</p>
+               <pb n="34" facs="tcp:110467:22"/>
+               <p>The Change of Air and Diet, the want of Shifts, and their uncleanlineſs.</p>
+               <p>The ſtraightneſs and illneſs of their Lodging.</p>
+               <p>The want of due Exerciſe, moſt of them having been Labouring Men,</p>
+               <p>Are ſufficient Cauſes to produce <hi>Camp-Diſeaſes,</hi> which the unſeaſonable heat of the Air actuates into <hi>Malignant,</hi> and then is eaſily communicated by <hi>Contagion</hi> to ſuch as converſs with them, whoſe Bodies are there<g ref="char:EOLhyphen"/>to prediſpoſed.</p>
+               <p>For which, the Remedies are,</p>
+               <p>
+                  <hi>Firſt,</hi> To Preſerve the Sound, indicated by the Cauſes: And,</p>
+               <p>
+                  <hi>Secondly,</hi> To Cure the Sick.</p>
+               <p>To which purpoſe the Peccant <hi>Matter</hi> and <hi>Humours</hi> (being thus produced in the Body, and not poſſible to be reduced to their Priſtine State) muſt therefore be carried off.</p>
+               <p>To effect which, the uſual and moſt ap<g ref="char:EOLhyphen"/>proved ways are by <hi>Antidotes,</hi> and <hi>Alexi<g ref="char:EOLhyphen"/>pharmicks,</hi> which ſometimes by <hi>
+                     <g ref="char:V">Ʋ</g>rine,</hi> and moſt by <hi>Sweat,</hi> diſcharge the Body of that Enemy; but becauſe they may be ſlow and uncertain in their <hi>Operation,</hi> and that oft times there are other <hi>Indications;</hi>
+               </p>
+               <p>Therefore as ſoon as taken ill (after a
+<pb n="35" facs="tcp:110467:22"/> 
+                  <hi>Clyster</hi> is adminiſtred, if <hi>Coſtive</hi>) order a <hi>Vomit,</hi> which may the next day without dan<g ref="char:EOLhyphen"/>ger be repeated, if there be <hi>Indications</hi> for it.</p>
+               <p>The Night after the <hi>Vomit,</hi> an <hi>Alexiphar<g ref="char:EOLhyphen"/>macal Medicine,</hi> mixt with <hi>Hypnoticks,</hi> will prevent all ill Symptomes.</p>
+               <p>Afterwards <hi>Purge</hi> but if <hi>Matter</hi> be caſt forth by the common <hi>Emunctories</hi> or <hi>Habit</hi> of the Body; then <hi>Drawing-Plaſters</hi> to the <hi>Boyls,</hi> and <hi>Sudorificks</hi> inwardly, with <hi>Bliſters</hi> and <hi>Applications</hi> to the Feet, per<g ref="char:EOLhyphen"/>form the whole Cure.</p>
+            </div>
+            <div type="section">
+               <head>Of the Jeſuits Powder.</head>
+               <p>ACcording to my promiſe in the Pre<g ref="char:EOLhyphen"/>face, I think my ſelf obliged to offer ſome of my Exceptions againſt the preſent unreaſonable, and too frequent uſe of the <hi>Cortex Patrum,</hi> or <hi>Peruviana,</hi> commonly called the <hi>Jeſuits Powder,</hi> and therefore (without repeating the Deſcription of the <hi>Plant,</hi> the Place whence 'twas brought, the time when firſt Imported into <hi>Europe,</hi> the manner how the Virtues thereof were firſt diſcovered, with other particulars re<g ref="char:EOLhyphen"/>lating to the ſame, which have been al<g ref="char:EOLhyphen"/>ready
+<pb n="36" facs="tcp:110467:23" rendition="simple:additions"/> at large treated upon by divers Authors; to which I refer my Reader) my Province ſhall be to take notice of ſome of the Reaſons which have induced many <hi>Phyſitians</hi> to make it ſo general a <hi>Febrifuge,</hi> and now almoſt a <hi>Panpharmacon;</hi> and then modeſtly to propoſe to the con<g ref="char:EOLhyphen"/>ſideration of the Impartial and Judicious Reader what makes me diſſent from the Practice of ſo many Learned and Eminent Prof<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſſors.</p>
+               <p>The principal Motives I preſume, are the original Recommendations from a<g ref="char:EOLhyphen"/>broad: <hi>Talbor's Blind</hi> and <hi>General Appli<g ref="char:EOLhyphen"/>catlon;</hi> together with the ſudden and ſur<g ref="char:EOLhyphen"/>prizing ſucceſs they ſuppoſe immediately follows the Exhibition of the <hi>Cortex,</hi> where<g ref="char:EOLhyphen"/>by, the Fit is ſoon interrupted, and the <hi>Patient</hi> pleaſed with a ſeeming and ſud<g ref="char:EOLhyphen"/>den Recovery, whereby many to my knowledge are obliged to tedious Courſes of the <hi>Cortex,</hi> even ſix times longer than was expected for the Cure, and; which often f<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>i<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ing hath been at laſt effected by by quite other Methods; of which may be given divers Inſtances, but that eve<g ref="char:EOLhyphen"/>ry day will furniſh faithful Inquirers with plenty of Examples.</p>
+               <pb n="37" facs="tcp:110467:23"/>
+               <p>To proceed therefore, pleaſe to obſerve, <hi>That 'tis on all hands agreed, that the Eſſential and manifest Quality of the ſaid Bark is Stip<g ref="char:EOLhyphen"/>tick or Aſtringent.</hi> Yet at the ſame time, ſuch as do not rely upon any occult Quality, will have it endued with a Property to open, empty, and remove the morbifick Cauſe by ſome unintelligible, inviſible, and let me add, prepoſterous manner of work<g ref="char:EOLhyphen"/>ing.</p>
+               <p>That it hath the <hi>Binding</hi> Quality, be<g ref="char:EOLhyphen"/>ſides the foreſaid acknowledgements, is ma<g ref="char:EOLhyphen"/>nifeſt by the Retention of the <hi>Morbifick Matter</hi> in the Body, which appears to be ſo from its being let looſe and return<g ref="char:EOLhyphen"/>ing to its old Courſe as ſoon as, or in a few days after a <hi>Purging Medicine</hi> ope<g ref="char:EOLhyphen"/>rates upon the <hi>Patient,</hi> which (had it been evacuated, as thoſe <hi>Gent.</hi> would have it) could not poſſibly be brought back again into the Body by a <hi>Purge</hi> or <hi>Vomit.</hi>
+               </p>
+               <p>His late Majeſty, to juſtifie the ſuppoſed Skill of the deceaſed, and according to the Proverb, fortunate Knight Sir <hi>R. T.</hi> was pleaſed to offer as a Tryal of Skill to the <hi>Phy<g ref="char:EOLhyphen"/>ſitians,</hi> that Perſons cured by the ſaid Knt. with the <hi>Jeſuits Powder,</hi> ſhould by taking a <hi>Purge,</hi> be again reduced to their priſtine ſtate for the <hi>Phyſitians</hi> to imploy their beſt Endeavours to help them if they could.</p>
+               <pb n="38" facs="tcp:110467:24"/>
+               <p>This was a ſufficient conceſſion that the <hi>Fomes</hi> ſtill remained in the Body, and only by the quieting or ſtiptick Quality of the <hi>Cortex</hi> was hindered from exerting (for the preſent) its peccant Motions.</p>
+               <p>For what can elſe be the Cauſe of the almoſt certain Return of the <hi>Ague</hi> after three weeks or a Month, but that the force of the Medicine being ſpent, the Cauſe of the <hi>Ague</hi> will no longer obey, but attacques the <hi>Patient</hi> afreſh. And if by chance the <hi>Ague</hi> appears not ſo ſoon nor in its proper Colours, yet what rea<g ref="char:EOLhyphen"/>ſon can be given, that at leaſt two in three that have taken any quantity of it, after the Expiration of three or four Months, are infallibly troubled with a <hi>Shortneſs of Breath,</hi> loſs of <hi>Appetite,</hi> a <hi>Hectique Rheu<g ref="char:EOLhyphen"/>matiſme, Colick, Jaundice, Scurvey,</hi> &amp;c. or ſuffer a ſevere Augmentation of ſuch Diſtempers, to which they were formerly ſubject, whereby it becomes almoſt Habi<g ref="char:EOLhyphen"/>tual, and oft times deſtructive to the Life of at leaſt one in five that had the miſ<g ref="char:EOLhyphen"/>fortune to be therewith treated.</p>
+               <p>'Tis confeſſed, that it often cheques the Fit of an <hi>Intermitting Feaver,</hi> and that fre<g ref="char:EOLhyphen"/>quent Repetitions of the ſame may ſo diſ<g ref="char:EOLhyphen"/>guiſe the Diſtemper as the <hi>Patient</hi> may
+<pb n="39" facs="tcp:110467:24"/> believe himſelf Cured, when alas the beſt is but a truce, and though it may never re<g ref="char:EOLhyphen"/>turn in the ſame ſhape, yet it ſeldom gives over haunting the <hi>Patient</hi> in different Man<g ref="char:EOLhyphen"/>ners, which occaſions many to make moſt grievious Complaints of their want of Health, <hi>Suffocations,</hi> or other <hi>Maladies,</hi> as aboveſaid, that infeſt them as bad, or worſe than their <hi>Ague:</hi> So that it may be ſaid, that the <hi>Jeſuits Powder</hi> cures the <hi>Ague,</hi> but at the ſame time deſtroys the <hi>Pa<g ref="char:EOLhyphen"/>tient.</hi>
+               </p>
+               <p>Which Dr. <hi>Willis</hi> ſeems to allow in an other Caſe, pag. 19 of the <hi>London Practice</hi> of <hi>Phyſick,</hi> where he concludes the Cauſe of divers ill Symptomes of the <hi>Brain</hi> and <hi>Nerves</hi> to proceed from the inward reſtraint of the malignant Matter driven thither by the means of <hi>Opium,</hi> or the like <hi>Aſtringent.</hi> Nevertheleſs as often as the <hi>Looſeneſs</hi> and <hi>Vomiting</hi> returned, thoſe affects were pre<g ref="char:EOLhyphen"/>ſently appeaſed.</p>
+               <p>To prove this further, conſider that 'tis generally owned, that the <hi>Cortex</hi> hath no <hi>Opening,</hi> but as already intimated, a <hi>Bind<g ref="char:EOLhyphen"/>ing</hi> and <hi>Aſtringent Quality,</hi> now unleſs it had withal a <hi>Tranſmuting Quality,</hi> to change the Morbifick Matter into <hi>Nutritive,</hi> I can<g ref="char:EOLhyphen"/>not ſee how poſſibly the <hi>Patient</hi> can be ſafe, and that there is no ſuch <hi>Tranſmutation,</hi>
+                  <pb n="40" facs="tcp:110467:25"/> appears by the frequent return of the Di<g ref="char:EOLhyphen"/>ſtemper after a few Weeks, eſpecially up<g ref="char:EOLhyphen"/>on the giving a <hi>Purge:</hi> whereby 'tis evi<g ref="char:EOLhyphen"/>dent, that the Matter was not only dam'd up in the Maſs of <hi>Blood,</hi> though the motion of it was ſuppreſſed by the <hi>Cortex,</hi> but that it ſtill remained the ſame uſeleſs pec<g ref="char:EOLhyphen"/>cant Matter as before, why elſe ſhould it many times return in the ſame ſhape; in<g ref="char:EOLhyphen"/>deed if by frequent and continued repetiti<g ref="char:EOLhyphen"/>on of the <hi>Cortex,</hi> the Diſeaſe happens to be a long time impriſon'd in the Body, and that Nature wants power ſufficient to expel it, 'tis poſſible by the acquiſition of freſh Mat<g ref="char:EOLhyphen"/>ter, or the tendency of it to another part, ſome new <hi>Phenomina</hi> may ariſe, very different f<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>om the old, but no leſs grievous; which therefore deludes the <hi>Patient</hi> out of a ſuſpi<g ref="char:EOLhyphen"/>tion of its being a Brat of the former <hi>Ague.</hi>
+               </p>
+               <p>But let us now ſuppoſe that this <hi>Jeſuits Powder</hi> ſhould infallibly cure the Fit of an <hi>Ague</hi> in all Perſons, as they ſay it doth in moſt, yet ſo long as it appears by experi<g ref="char:EOLhyphen"/>ence that it only prevents the <hi>Accidents,</hi> leaving the Cauſe untouched, the <hi>Patient</hi> is certainly more endangered, for the <hi>Fits</hi> not being the <hi>Diſeaſe,</hi> but cauſed by the Motion of the Diſeaſe in order to a natural Diſ<g ref="char:EOLhyphen"/>charge: wherein then lyes the Excellency of this <hi>Medicine?</hi>
+               </p>
+               <pb n="41" facs="tcp:110467:25"/>
+               <p>The Author of Sir <hi>R. T's. Wonderful Se<g ref="char:EOLhyphen"/>cret,</hi> or <hi>Engliſh Remedy,</hi> doth Learnedly Philoſophize againſt all Senſe and Reaſon, as in page 17, <hi>&amp;c.</hi> where he will not allow that the <hi>Binding, Stiptick Quality</hi> doth retain the <hi>Morbifick Matter</hi> in the Body, but by riveting (as his words are) the <hi>Homoge<g ref="char:EOLhyphen"/>neous</hi> parts of the Blood, ſeperates them from the <hi>Heterogeneous,</hi> whereby it facili<g ref="char:EOLhyphen"/>tates the Expulſion. Could this <hi>Chimara</hi> be granted, how comes an expelling Medi<g ref="char:EOLhyphen"/>cine to deſtroy the effect of the <hi>Cortex,</hi> which if ſo, would really help it? To what end doth his <hi>Medicine</hi> ſeparate, if <hi>Nature</hi> cannot, <hi>Art</hi> muſt not diſcharge? Nay, in pag. 20. he aſſerts, that the principal action of the <hi>Cortex</hi> is directly oppoſite to that of <hi>Evacuations,</hi> and thereby endea<g ref="char:EOLhyphen"/>vours to confute the Opinion of the Author of the <hi>Additions</hi> to <hi>Schroderus,</hi> who ima<g ref="char:EOLhyphen"/>gines that it operates by <hi>Precipitation:</hi> notwithſtanding, quickly forgetting him<g ref="char:EOLhyphen"/>ſelf in finding fault with <hi>La Mery,</hi> he chan<g ref="char:EOLhyphen"/>geth his Opinion, pag. 26. and confeſſeth that the <hi>Febrifick Matter</hi> remains (after the proper parts of the Blood are reuni<g ref="char:EOLhyphen"/>ted) confounded in the ſuperfluous Sero<g ref="char:EOLhyphen"/>ſity wherewith 'tis evacuated, either by <hi>Tranſpiration</hi> or <hi>
+                     <g ref="char:V">Ʋ</g>rine.</hi>
+               </p>
+               <pb n="42" facs="tcp:110467:26"/>
+               <p>Truly the Diſcoveries of the Properties of this Remedy would have been no great loſs to the World, if they had ſtill remain<g ref="char:EOLhyphen"/>ed concealed under the occult Quality, for the Explanations ſeem to me <hi>Riddles</hi> and <hi>Paradoxes,</hi> it <hi>Opens</hi> and <hi>Binds,</hi> and <hi>Binds</hi> and <hi>Opens,</hi> and both, and neither, <hi>ignotum per ignotius.</hi> But 'tis no wonder it ſhould be ſo, when <hi>Authors</hi> write more to ſupport Opinions and maintain indulg'd Notions than to diſcover Truth, and ſtudy more what will pleaſe, than what may guide and inſtruct.</p>
+               <p>For certainly, if they would have had more <hi>Patience,</hi> inſtead of an <hi>Ambition</hi> to appear in Print, and had made ſome more diligent Obſervations upon the Exhibition of the <hi>Cortex,</hi> they could never have been guilty of ſo great a miſchief, as blindly to recommend a <hi>Drugg</hi> ſo highly prejudicial and deſtructive to Life and Health as this hath ſince proved, whether by abuſe of it or otherwiſe, I will not now diſpute.</p>
+               <p>If any curious Obſerver will but pleaſe to reflect a little on the Weekly Bills of <hi>Mor<g ref="char:EOLhyphen"/>tality,</hi> ſince the frequen<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> uſe of the <hi>Cortex,</hi> he'll aſſuredly find not a ſingle Corps leſs in number than before, 'tis well if not many increaſed; for there are certainly more <hi>Cholicks, Apoplexes, Suffocations; Rheuma<g ref="char:EOLhyphen"/>tiſmes</hi>
+                  <pb n="43" facs="tcp:110467:26"/> in abundance, <hi>Hecticks,</hi> &amp;c. than formerly, which were impoſſible if it anſwered the commendation of ſome, and the expectation of others, for if we have no fewer People of the ſame number of Inha<g ref="char:EOLhyphen"/>bitants dye, but more painful and torment<g ref="char:EOLhyphen"/>ing Diſeaſes increaſe than before its uſe, what is the Benefit accrues thereby? The Obſervations other <hi>Phyſitians</hi> have met with, I hope will in time weane them from the uſe of this <hi>Drugg,</hi> for they may find the ſame as I do.</p>
+               <p>If there be any true way to diſcover the Vertues and Uſefulneſs of Remedies but by Experience, I muſt confeſs my Igno<g ref="char:EOLhyphen"/>rance, for I know no other.</p>
+               <p>Scarce a <hi>Patient</hi> comes to me that hath not juſt cauſe to complain of the <hi>Cortex</hi> by reaſon of ſome <hi>Chronical Diſtemper</hi> or other, which ever ſince the uſe of the <hi>Bark</hi> hath afflicted them.</p>
+               <p>If what I have in the former part laid down as a certain Rule (that no Diſeaſe was ever cured without Evacuation) be true, then I think it cannot reaſonably be long controverted whether a ſtiptick Re<g ref="char:EOLhyphen"/>medy is fit to be applyed for the compleat Cure of an <hi>Ague,</hi> which none will deny to proceed from <hi>Heterogeneous</hi> and <hi>praeternatu<g ref="char:EOLhyphen"/>ral Humours;</hi> and I believe few can prove
+<pb n="44" facs="tcp:110467:27"/> thoſe <hi>Humours</hi> ever after converted into <hi>Homogeneous</hi> and <hi>Natural;</hi> and if ſo, the natural Indication is Evacuation.</p>
+               <p>Could this <hi>Powder</hi> be more effectual than the Method I have in general propoſed, or indeed any other, or did it perform what they ſay it doth, leaving no deadly poyſon behind it, then would I as heartily embrace it; but ſince other Methods are experimentally ſeen to be more ſafe, cer<g ref="char:EOLhyphen"/>tain and uſeful, it ought to be exploded as a common Enemy to Mankind; wit<g ref="char:EOLhyphen"/>neſs the untimely Death of divers of our <hi>Nobility, Gentry</hi> and <hi>Commonalty,</hi> ſo noto<g ref="char:EOLhyphen"/>rious, that I forbear to name them. I ſhall leave theſe my thoughts to the Scru<g ref="char:EOLhyphen"/>tiny of any Candid Perſon, for my part I do not ſee how <hi>Practice</hi> can ſupport it, or <hi>Theory</hi> encourage it.</p>
+               <p>It may not be amiſs here to inſert an Obſervation of the <hi>Cortex,</hi> communicated by a Perſon of great Worth and Experience in <hi>Chymiſtry;</hi> That a convenient Quantity of the ſame being thrown into <hi>Wort</hi> after <hi>Yeaſt</hi> is added to cauſe it to work, or any o<g ref="char:EOLhyphen"/>ther Liquor upon <hi>Fermenting,</hi> the <hi>Fermenta<g ref="char:EOLhyphen"/>tion</hi> ſhall immediately be interrupted, and the Liquor rendred vapid, uſeleſs, and total<g ref="char:EOLhyphen"/>ly deſtroyed.</p>
+            </div>
+         </div>
+         <div type="postscript">
+            <pb n="45" facs="tcp:110467:27"/>
+            <head>POST-SCRIPT.</head>
+            <p>AFter this Small <hi>Treatiſe</hi> was Finiſhed and Compos'd by the <hi>Printer,</hi> there remained four blank Pages to compleat the Sheet, which gave me opportunity to make ſome Amendments, and to fill up the reſt with a few ſcatter'd Re<g ref="char:EOLhyphen"/>marks and Obſervations. Wherefore the Reader may pleaſe to take no<g ref="char:EOLhyphen"/>tice that in Tranſlating the Quotations out of the <hi>Latin,</hi> I followed as near as I could the Phraſe and Stile of my Authors, without endeavouring to mend it where it was ſignificant. And further, that having had the good fortune, ſince the Printing the 21ſt. page, of Mr. <hi>Bernier's</hi> Acquain<g ref="char:EOLhyphen"/>tance, whoſe Curioſity brought him to viſit this Kingdom, and ſee the
+<pb n="46" facs="tcp:110467:28"/> 
+               <hi>Coronation:</hi> I look upon my ſelf obli<g ref="char:EOLhyphen"/>ged to acknowledge my Errour in naming a Perſon of his great Merit and Reputation in <hi>Europe</hi> with no more Reſpect, beſides the Honour he had in being <hi>Phyſitian</hi> to the Great <hi>Mogul</hi> in the ſtrange Revolution of that Rich and Mighty Empire.</p>
+            <div type="observations">
+               <head>For Obſervations take this taſte.</head>
+               <p>A <hi>Hackney Coachman</hi> in <hi>Hedge-Lane</hi> having uſed the <hi>Cortex</hi> a whole Month in an Intermitting <hi>Feaver</hi> upon a Promiſe of being by it re<g ref="char:EOLhyphen"/>covered without <hi>Purge</hi> or <hi>Vomit</hi> in three or four days. And being in that time reduced to a very weak Condition, beſides an Addition of dangerous Symptomes, was by a contrary Method in leſs than a <hi>Fort<g ref="char:EOLhyphen"/>night</hi> much relieved, and in a very ſhort time after reſtored to perfect Health.</p>
+               <p>A Young Gentlewoman having been ſix Month afflicted with a <hi>Quartane,</hi> notwithſtanding the fre<g ref="char:EOLhyphen"/>quent
+<pb n="47" facs="tcp:110467:28"/> Uſe of the <hi>Cortex,</hi> was in leſs than a <hi>Week</hi> perfectly Cured by a <hi>Purging Courſe.</hi>
+               </p>
+               <p>Many more to the ſame Purpoſe may be added, but that I am not willing to enlarge at preſent; but if this ſmall Trifle comes hereafter to be Publiſhed, 'tis very poſſible it may receive an Augmentation by ſome Remarkable Obſervations in divers Diſeaſes.</p>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="errata">
+            <head>ERRATA.</head>
+            <p>PAge 8. l. 18. r. <hi>the Roots or Fountains of all Diſeaſes.</hi> p. 16. l. 10. r. <hi>Caution.</hi> l. 11. place a <hi>comma</hi> after <hi>Diſtempers.</hi> p. 17. l. 2. after <hi>and</hi> r. <hi>for.</hi> l. 10. dele <hi>moſt.</hi> p. 18. l. 26. r. <hi>who</hi> for <hi>he.</hi> p. 19. l. 22. r. <hi>Böetius</hi> With two tittles. l. 23. <hi>dele s</hi> in <hi>fasting.</hi> p. 21. l. 9. r. <hi>deep rooted.</hi> l. 11. r. <hi>Nerves.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </back>
+   </text>
+</TEI>
